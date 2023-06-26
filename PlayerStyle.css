@@ -1,0 +1,160 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe Script';
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(material/bgimage.jpg);
+    background-size: cover;
+}
+
+#controlPanel {
+    background-color: rgba(255,255,255,.8);
+    border: 2px #5B5B5B;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,.4);
+    padding: 15px 20px;
+    width: 380px;
+}
+
+#music {
+    background-color: transparent;
+    width: inherit;
+    text-align: center;
+    border-width: 0px;
+}
+
+#btnArea {
+    padding: 10px;
+    border: 0;
+    background-color: transparent;
+}
+    #btnArea > span {
+        color: #ff74a4;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+#progress {
+    width: 100%;
+    appearance: none;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+    #progress::-webkit-slider-thumb {
+        appearance: none;
+        background-color: #9f6ea3;
+        cursor: pointer;
+        width: 10px;
+        height: 5px;
+        transition: .5s;
+    }
+
+        #progress::-webkit-slider-thumb:hover {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+    #progress:-moz-range-thumb {
+        background-color: #9f6ea3;
+        cursor: pointer;
+        width: 10px;
+        height: 5px;
+        transition: .5s;
+    }
+
+        #progress:-moz-range-thumb:hover {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+#setVolValue {
+    width: 70%;
+    height: 5px;
+    border-radius: 10%;
+    appearance: none;
+    cursor: pointer;
+}
+
+    #setVolValue::-webkit-slider-thumb {
+        appearance: none;
+        background-color: #F00078;
+        border-radius: 5px;
+        width: 15px;
+        height: 10px;
+    }
+
+    #setVolValue:-moz-range-thumb {
+        border-radius: 5px;
+        background-color: #F00078;
+        width: 15px;
+        height: 10px;
+    }
+
+#btnVol {
+    border: 0;
+    background-color: transparent;
+    color: #ff74a4;
+    cursor: pointer;
+}
+
+#volValue {
+    width: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.3);
+    box-shadow: 0px 6px 15px rgba(0,0,0,.3);
+}
+
+#info > div {
+    text-align: center;
+    height: 30px;
+}
+
+#btnSB {
+    border: 0;
+    background-color: transparent;
+    padding-left: 11em;
+    color: #ff74a4;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#book > div {
+    background-color: rgba(255,184,208,.1);
+    box-shadow: 0px 6px 15px rgba(0,0,0,.3);
+    width: 150px;
+    height: 170px;
+    float: left;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+    #book > div > div {
+        border-bottom: 1px solid;
+        padding: 2px;
+    }
+
+#book > button {
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    color: #ff74a4;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
