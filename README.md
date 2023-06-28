@@ -8,7 +8,7 @@
 5. 有資訊看版可顯示目前播放狀態、目前播放曲目、當前播放秒數、歌曲總時長的功能。     
 6. 有我的歌本功能，可供編輯想聽的歌曲。
 ```
-  
+### 成品畫面： 
 <img src="./material/demo1.png" width="50%" />  
 <img src="./material/demo2.png" width="50%" />  
 <img src="./material/demo3.png" width="50%" />  
