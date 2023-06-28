@@ -1,5 +1,5 @@
 # <p align="center">MusicPlayer</p>  
-### <HTML+CSS+JavaScript綜合應用，含有以下功能：    
+### HTML+CSS+JavaScript綜合應用，含有以下功能：    
 ```
 1. 有直接選擇曲目的功能。      
 2. 可執行播放、停止、暫停、上一首、下一首、快轉、倒轉、音量靜音、單曲循環、全部循環及隨機播放等功能。         
